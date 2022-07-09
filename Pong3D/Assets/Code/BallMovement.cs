@@ -83,11 +83,13 @@ public class BallMovement : MonoBehaviour
         if(gameObject.name == "PlayerOne"){
             GetComponent<AudioSource>().clip = playerOneSoundEffect;
             GetComponent<AudioSource>().Play();
+            this.ballSpeed++;
         }
 
         if(gameObject.name == "PlayerTwo"){
             GetComponent<AudioSource>().clip = playerTwoSoundEffect;
             GetComponent<AudioSource>().Play();
+            this.ballSpeed++;
         }
 
         Debug.Log("Collided with: " + parentGameObject.name);
