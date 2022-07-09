@@ -16,32 +16,38 @@ public class BallMovement : MonoBehaviour
     private Rigidbody ballObject;
     private int ballSpeed; 
     public BallDirection ballDirection;
+
+    // private GameObject playerOneGameObject = GameObject.Find("Players/PlayerOne");
     
 
-
-
-
-
+    public AudioClip playerOneSoundEffect;
+    public AudioClip playerTwoSoundEffect;
+    public AudioClip wallSoundEffect;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.ballSpeed = 30;
+        // this.playerOneGameObject = GameObject.Find("Players/PlayerOne");
+
+        this.ballSpeed = 25;
 
         this.initialImpulse = calculateBallDirection(ballDirection);
         this.ballObject = GetComponent<Rigidbody>();
         this.ballObject.AddForce(initialImpulse, ForceMode.Impulse);
+
+        GetComponent<AudioSource>().playOnAwake = false;
+        
         
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        this.ballObject.velocity = this.ballSpeed * (ballObject.velocity.normalized);
     }
 
     private Vector3 calculateBallDirection(BallDirection ballDirection){
-
+        
 
         int xValue = this.ballSpeed;
         int yValue = 4;
@@ -68,8 +74,51 @@ public class BallMovement : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision collision) {
-        GameObject otherObj = collision.gameObject;
-        Debug.Log("Collided with: " + otherObj);
+        GameObject gameObject = collision.gameObject;
+        Transform parentGameObject = gameObject.transform.parent;
+        // Debug.Log("Collided with: " + gameObject.name);
+
+
+        
+        if(gameObject.name == "PlayerOne"){
+            GetComponent<AudioSource>().clip = playerOneSoundEffect;
+            GetComponent<AudioSource>().Play();
+        }
+
+        if(gameObject.name == "PlayerTwo"){
+            GetComponent<AudioSource>().clip = playerTwoSoundEffect;
+            GetComponent<AudioSource>().Play();
+        }
+
+        Debug.Log("Collided with: " + parentGameObject.name);
+        if(parentGameObject.name == "Upper Wall" || parentGameObject.name == "Lower Wall"){
+            GetComponent<AudioSource>().clip = wallSoundEffect;
+            GetComponent<AudioSource>().Play();
+        }
+        
+        
+
+        // switch (gameObject.name)
+        // {
+        //     case "PlayerOne":
+                
+        //         break;
+
+        //     case "PlayerTwo":
+  
+        //         break;
+
+        //     case "UpperLongWall":
+        //         GetComponent<AudioSource>().clip = wallSoundEffect;
+        //         GetComponent<AudioSource>().Play();
+        //         break;
+
+        //     default:
+
+        //         break;
+        // }
+
+        
     }
-    
+
 }
