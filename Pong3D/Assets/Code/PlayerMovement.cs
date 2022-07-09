@@ -4,28 +4,45 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Vector3 Vec;
-
+    private Vector3 Vec;
     private float speed;
     private float boundary; 
+    public Rigidbody playerObject;
+
+    public enum Player
+    {
+        PLAYER_ONE,
+        PLAYER_TWO
+    }
+
+    public Player player;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.speed = 0.05f;
-        this.boundary = 1000.0f;
+        this.playerObject = GetComponent<Rigidbody>(); //TODO: May be unnecessary
+        this.speed = 100.0f;
+        this.boundary = 9.3f;
         //this.boundary = 10.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float positionZ = this.transform.position.z;
 
+        bool keyPressUP = Input.GetKey(KeyCode.UpArrow);
+        bool keyPressDown = Input.GetKey(KeyCode.DownArrow);
+
+        float positionZ = this.transform.position.z;
+        
         if (Input.GetKey(KeyCode.UpArrow))
         {
+            // Debug.Log(this.playerObject.toString());
             if (positionZ<this.boundary) {
-                this.transform.Translate(Vector3.down * this.speed);
+                Vector3 tempVect = new Vector3(0, 0, 1);
+                tempVect = tempVect.normalized * Time.deltaTime * speed;
+                playerObject.MovePosition(transform.position  + tempVect);
+                // //this.transform.Translate(Vector3.down * this.speed);
             }
         }
 
@@ -33,7 +50,11 @@ public class PlayerMovement : MonoBehaviour
         {
             if (positionZ > -this.boundary)
             {
-                this.transform.Translate(Vector3.up * this.speed);
+                Vector3 tempVect = new Vector3(0, 0, -1);
+                tempVect = tempVect.normalized * Time.deltaTime * speed;
+                playerObject.MovePosition(transform.position  + tempVect);
+
+                //this.transform.Translate(Vector3.up * this.speed);
             }
         }
 
