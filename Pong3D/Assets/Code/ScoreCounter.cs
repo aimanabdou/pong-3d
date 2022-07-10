@@ -11,10 +11,7 @@ public class ScoreCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.ball
-        
-        
- = GameObject.Find("Ball");
+        this.ball = GameObject.Find("Ball");
     }
 
     // Update is called once per frame
