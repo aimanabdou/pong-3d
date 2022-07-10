@@ -90,14 +90,14 @@ public class BallMovement : MonoBehaviour
             this.playSound(playerOneSoundEffect);
             // GetComponent<AudioSource>().clip = playerOneSoundEffect;
             // GetComponent<AudioSource>().Play();
-            this.ballSpeed++;
+            this.ballSpeed += 32;
         }
 
         if(gameObject.name == "PlayerTwo"){
             this.playSound(playerTwoSoundEffect);
             // GetComponent<AudioSource>().clip = playerTwoSoundEffect;
             // GetComponent<AudioSource>().Play();
-            this.ballSpeed++;
+            this.ballSpeed += 32;
         }
 
         // Debug.Log("Collided with: " + parentGameObject.name);
@@ -111,15 +111,16 @@ public class BallMovement : MonoBehaviour
         if(gameObject.name == "PlayerOnePointCounter"){
             this.scorePlayerOne++;
             this.playSound(goalSoundEffect);
-            this.ballSpeed = STANDARD_BALL_SPEED;
+            this.resetBall();
         }
 
         if(gameObject.name == "PlayerTwoPointCounter"){
             this.scorePlayerTwo++;
             this.playSound(goalSoundEffect);
-            this.ballSpeed = STANDARD_BALL_SPEED;
+            this.resetBall();
         }
         
+
 
 
         // switch (gameObject.name)
@@ -143,6 +144,10 @@ public class BallMovement : MonoBehaviour
         // }
 
         
+    }
+
+    private void resetBall(){
+        this.ballSpeed = STANDARD_BALL_SPEED;
     }
 
     private void playSound(AudioClip audioClip){
