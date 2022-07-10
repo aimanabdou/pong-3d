@@ -48,13 +48,18 @@ public class BallMovement : MonoBehaviour
 
         this.originalPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         
-        
+        GetComponent<Rigidbody>().AddForce(initialImpulse, ForceMode.Impulse);
     }
 
     // Update is called once per frame
     void Update()
     {
         this.ballObject.velocity = this.ballSpeed * (ballObject.velocity.normalized);
+
+        if (Input.GetKey(KeyCode.Return))
+        {
+            // GetComponent<Rigidbody>().AddForce(initialImpulse, ForceMode.Impulse);
+        }
     }
 
     private Vector3 calculateBallDirection(BallDirection ballDirection){
@@ -178,5 +183,11 @@ public class BallMovement : MonoBehaviour
         this.scorePlayerOne = 0;
         this.scorePlayerTwo = 0; 
     }
+
+    public void stopBall(){
+        ballObject.velocity = Vector3.zero;
+    }
+
+    
 
 }

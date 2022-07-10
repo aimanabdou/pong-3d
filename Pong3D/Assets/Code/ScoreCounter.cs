@@ -37,6 +37,8 @@ public class ScoreCounter : MonoBehaviour
         if(this.scorePlayerOne >= this.winningScore){
             score.text = "RED WINS!";
             score.color = Color.red;
+            // this.ball.GetComponent<BallMovement>().resetBall();
+            this.ball.GetComponent<BallMovement>().stopBall();
             return;
         }
 
@@ -44,6 +46,10 @@ public class ScoreCounter : MonoBehaviour
 
             score.text = "BLUE WINS!";
             score.color = Color.blue;
+
+            // this.ball.GetComponent<BallMovement>().resetBall();
+            this.ball.GetComponent<BallMovement>().stopBall();
+
             return;
         }
 
