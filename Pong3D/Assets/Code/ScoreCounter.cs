@@ -7,6 +7,7 @@ public class ScoreCounter : MonoBehaviour
     private GameObject ball;
     private int scorePlayerOne = 0;
     private int scorePlayerTwo = 0;
+    private int winningScore = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -21,25 +22,35 @@ public class ScoreCounter : MonoBehaviour
     }
 
     private void setScore(){
-        if(ball
-        
-        
- != null){
-            this.scorePlayerOne = this.ball
-            
-            
-            
-    .GetComponent<BallMovement>().getScorePlayerOne();
-            this.scorePlayerTwo = this.ball
-            
-            
-            
-    .GetComponent<BallMovement>().getScorePlayerTwo();
+        if(ball == null){
+            return;
         }
 
-        if(score != null){
-            score.text = this.scorePlayerTwo + ":" + this.scorePlayerOne;
+
+        if(score == null){
+            return;
         }
+
+        this.scorePlayerOne = this.ball.GetComponent<BallMovement>().getScorePlayerOne();
+        this.scorePlayerTwo = this.ball.GetComponent<BallMovement>().getScorePlayerTwo();
+
+        if(this.scorePlayerOne >= this.winningScore){
+            score.text = "RED WINS!";
+            score.color = Color.red;
+            return;
+        }
+
+        if(this.scorePlayerTwo >= this.winningScore){
+
+            score.text = "BLUE WINS!";
+            score.color = Color.blue;
+            return;
+        }
+
+        score.color = Color.white;
+        score.text = this.scorePlayerTwo + ":" + this.scorePlayerOne;
+
+
     }
 
     // private void ballCollisionDetection(){
