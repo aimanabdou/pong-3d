@@ -20,9 +20,9 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.playerObject = GetComponent<Rigidbody>(); //TODO: May be unnecessary
-        this.speed = 100.0f;
-        this.boundary = 9.3f;
+        this.playerObject = GetComponent<Rigidbody>();
+        this.speed = 5000.0f;
+        this.boundary = 280.0f;
         //this.boundary = 10.0f;
     }
 

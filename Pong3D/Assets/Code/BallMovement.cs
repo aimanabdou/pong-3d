@@ -14,6 +14,7 @@ public class BallMovement : MonoBehaviour
 
     private Vector3 initialImpulse;
     private Rigidbody ballObject;
+    public const int STANDARD_BALL_SPEED = 800;
     private int ballSpeed; 
     public BallDirection ballDirection;
 
@@ -23,13 +24,16 @@ public class BallMovement : MonoBehaviour
     public AudioClip playerOneSoundEffect;
     public AudioClip playerTwoSoundEffect;
     public AudioClip wallSoundEffect;
+    public AudioClip goalSoundEffect;
+
+    private int scorePlayerOne = 0; 
+    private int scorePlayerTwo = 0; 
 
     // Start is called before the first frame update
     void Start()
     {
         // this.playerOneGameObject = GameObject.Find("Players/PlayerOne");
-
-        this.ballSpeed = 25;
+        this.ballSpeed = STANDARD_BALL_SPEED;
 
         this.initialImpulse = calculateBallDirection(ballDirection);
         this.ballObject = GetComponent<Rigidbody>();
@@ -50,7 +54,7 @@ public class BallMovement : MonoBehaviour
         
 
         int xValue = this.ballSpeed;
-        int yValue = 4;
+        int yValue = 300; //was 4
 
 
     Vector3 directionVector;
@@ -78,27 +82,45 @@ public class BallMovement : MonoBehaviour
         Transform parentGameObject = gameObject.transform.parent;
         // Debug.Log("Collided with: " + gameObject.name);
 
-
-        
+        if(parentGameObject == null){
+            return;
+        }
+        // Debug.Log("Collided with: " + parentGameObject.name);
         if(gameObject.name == "PlayerOne"){
-            GetComponent<AudioSource>().clip = playerOneSoundEffect;
-            GetComponent<AudioSource>().Play();
+            this.playSound(playerOneSoundEffect);
+            // GetComponent<AudioSource>().clip = playerOneSoundEffect;
+            // GetComponent<AudioSource>().Play();
             this.ballSpeed++;
         }
 
         if(gameObject.name == "PlayerTwo"){
-            GetComponent<AudioSource>().clip = playerTwoSoundEffect;
-            GetComponent<AudioSource>().Play();
+            this.playSound(playerTwoSoundEffect);
+            // GetComponent<AudioSource>().clip = playerTwoSoundEffect;
+            // GetComponent<AudioSource>().Play();
             this.ballSpeed++;
         }
 
-        Debug.Log("Collided with: " + parentGameObject.name);
+        // Debug.Log("Collided with: " + parentGameObject.name);
+
         if(parentGameObject.name == "Upper Wall" || parentGameObject.name == "Lower Wall"){
-            GetComponent<AudioSource>().clip = wallSoundEffect;
-            GetComponent<AudioSource>().Play();
+            this.playSound(wallSoundEffect);
+            // GetComponent<AudioSource>().clip = wallSoundEffect;
+            // GetComponent<AudioSource>().Play();
+        }
+
+        if(gameObject.name == "PlayerOnePointCounter"){
+            this.scorePlayerOne++;
+            this.playSound(goalSoundEffect);
+            this.ballSpeed = STANDARD_BALL_SPEED;
+        }
+
+        if(gameObject.name == "PlayerTwoPointCounter"){
+            this.scorePlayerTwo++;
+            this.playSound(goalSoundEffect);
+            this.ballSpeed = STANDARD_BALL_SPEED;
         }
         
-        
+
 
         // switch (gameObject.name)
         // {
@@ -121,6 +143,27 @@ public class BallMovement : MonoBehaviour
         // }
 
         
+    }
+
+    private void playSound(AudioClip audioClip){
+        if(audioClip == null){
+            return; 
+        }
+        GetComponent<AudioSource>().clip = audioClip;
+        GetComponent<AudioSource>().Play();
+    }
+
+    public int getScorePlayerOne(){
+        return this.scorePlayerOne; 
+    }
+
+    public int getScorePlayerTwo(){
+        return this.scorePlayerTwo; 
+    }
+
+    public void resetScore(){
+        this.scorePlayerOne = 0;
+        this.scorePlayerTwo = 0; 
     }
 
 }

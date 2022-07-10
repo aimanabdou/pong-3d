@@ -352,6 +352,7 @@
 "Assets/Code/movement.cs"
 "Assets/Code/PlayerMovement.cs"
 "Assets/Code/pongai.cs"
+"Assets/Code/ScoreCounter.cs"
 -langversion:9.0
 
 /deterministic
