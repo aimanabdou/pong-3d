@@ -11,7 +11,7 @@ public class PongAI : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        this.aiPlayerSpeed = 10.0f; 
+        this.aiPlayerSpeed = 2.0f; 
         this.boundary = 280.0f;
     }
 

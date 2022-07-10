@@ -17,6 +17,7 @@ public class BallMovement : MonoBehaviour
     public const int STANDARD_BALL_SPEED = 800;
     private int ballSpeed; 
     public BallDirection ballDirection;
+    
 
     // private GameObject playerOneGameObject = GameObject.Find("Players/PlayerOne");
     
@@ -29,6 +30,10 @@ public class BallMovement : MonoBehaviour
     private int scorePlayerOne = 0; 
     private int scorePlayerTwo = 0; 
 
+    private Vector3 originalPosition;
+
+    // public Vector3 startPosition;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +45,8 @@ public class BallMovement : MonoBehaviour
         this.ballObject.AddForce(initialImpulse, ForceMode.Impulse);
 
         GetComponent<AudioSource>().playOnAwake = false;
+
+        this.originalPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         
         
     }
@@ -54,7 +61,7 @@ public class BallMovement : MonoBehaviour
         
 
         int xValue = this.ballSpeed;
-        int yValue = 300; //was 4
+        int yValue = 300;
 
 
     Vector3 directionVector;
@@ -148,6 +155,7 @@ public class BallMovement : MonoBehaviour
 
     private void resetBall(){
         this.ballSpeed = STANDARD_BALL_SPEED;
+        transform.position = originalPosition;
     }
 
     private void playSound(AudioClip audioClip){
