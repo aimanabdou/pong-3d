@@ -18,10 +18,6 @@ public class PongAI : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log("is Called.");
-
-        
-
         if (ball.transform.position.z > transform.position.z && transform.position.z < this.boundary)
         {
             transform.Translate(0, 0, this.aiPlayerSpeed);
@@ -31,15 +27,5 @@ public class PongAI : MonoBehaviour
         {
             transform.Translate(0, 0, -this.aiPlayerSpeed);
         }
-
-        // if (transform.position.z > 7.5f)
-        // {
-        //     transform.position = new Vector3(-15, 7.5f, 0);
-        // }
-
-        // if (transform.position.z < -7.5f)
-        // {
-        //     transform.position = new Vector3(-15, -7.5f, 0);
-        // }
     }
 }
