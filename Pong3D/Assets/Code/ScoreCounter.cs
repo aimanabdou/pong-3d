@@ -5,6 +5,7 @@ public class ScoreCounter : MonoBehaviour
 {
     public Text score;
     public Text winnerMessage;
+    public Text restartGame;
     private GameObject ball;
     private int scorePlayerOne = 0;
     private int scorePlayerTwo = 0;
@@ -14,6 +15,11 @@ public class ScoreCounter : MonoBehaviour
     void Start()
     {
         this.ball = GameObject.Find("Ball");
+
+        this.winnerMessage.text = "";
+        this.restartGame.text = "";
+
+        // this.winnerMessage.SetActive(false);
     }
 
     // Update is called once per frame
@@ -37,26 +43,31 @@ public class ScoreCounter : MonoBehaviour
 
         // score.color = Color.white;
         score.text = this.scorePlayerTwo + ":" + this.scorePlayerOne;
-        
+
         if(this.scorePlayerOne >= this.winningScore){
-            winnerMessage.text = "RED\nWINS";
-            winnerMessage.color = Color.red;
-            // this.ball.GetComponent<BallMovement>().resetBall();
+            this.winnerMessage.text = "RED\nWINS";
+            this.winnerMessage.color = Color.red;
+
+            this.restartGame.text = "Press [Return] to restart game";
             this.ball.GetComponent<BallMovement>().stopBall();
             return;
         }
 
         if(this.scorePlayerTwo >= this.winningScore){
 
-            winnerMessage.text = "BLUE\nWINS";
-            winnerMessage.color = Color.blue;
+            this.winnerMessage.text = "BLUE\nWINS";
+            this.winnerMessage.color = Color.blue;
 
-            // this.ball.GetComponent<BallMovement>().resetBall();
+            this.restartGame.text = "Press [Return] to restart game";
             this.ball.GetComponent<BallMovement>().stopBall();
 
             return;
         }
 
+        // if(this.scorePlayerOne >= this.winningScore || this.scorePlayerTwo >= this.winningScore){
+        //     this.restartGame.text = "Press [Return] to restart game";
+        //     this.ball.GetComponent<BallMovement>().stopBall();
+        // }
 
 
 

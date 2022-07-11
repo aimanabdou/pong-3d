@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random=UnityEngine.Random;
-
+using UnityEngine.SceneManagement;
 
 public class BallMovement : MonoBehaviour
 {
@@ -59,7 +59,9 @@ public class BallMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Return))
         {
             if(ballObject.velocity.magnitude == 0.0f){
-                Application.LoadLevel(Application.loadedLevel);
+                // Application.LoadLevel(Application.loadedLevel);
+                SceneManager.LoadScene("Pong3DField", LoadSceneMode.Single);
+
                 // this.ballObject.velocity = this.ballSpeed * (ballObject.velocity.normalized);
                 // GetComponent<Rigidbody>().AddForce(initialImpulse, ForceMode.Impulse);
             }
