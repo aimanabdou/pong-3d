@@ -58,7 +58,11 @@ public class BallMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Return))
         {
-            // GetComponent<Rigidbody>().AddForce(initialImpulse, ForceMode.Impulse);
+            if(ballObject.velocity.magnitude == 0.0f){
+                Application.LoadLevel(Application.loadedLevel);
+                // this.ballObject.velocity = this.ballSpeed * (ballObject.velocity.normalized);
+                // GetComponent<Rigidbody>().AddForce(initialImpulse, ForceMode.Impulse);
+            }
         }
     }
 
@@ -185,7 +189,11 @@ public class BallMovement : MonoBehaviour
     }
 
     public void stopBall(){
-        ballObject.velocity = Vector3.zero;
+        this.ballObject.velocity = Vector3.zero;
+
+        if(ballObject.velocity.magnitude > 0.0f){
+            this.ballObject.velocity = Vector3.zero;
+        }
     }
 
     

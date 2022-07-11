@@ -4,6 +4,7 @@ using System.Collections;
 public class ScoreCounter : MonoBehaviour
 {
     public Text score;
+    public Text winnerMessage;
     private GameObject ball;
     private int scorePlayerOne = 0;
     private int scorePlayerTwo = 0;
@@ -34,9 +35,12 @@ public class ScoreCounter : MonoBehaviour
         this.scorePlayerOne = this.ball.GetComponent<BallMovement>().getScorePlayerOne();
         this.scorePlayerTwo = this.ball.GetComponent<BallMovement>().getScorePlayerTwo();
 
+        // score.color = Color.white;
+        score.text = this.scorePlayerTwo + ":" + this.scorePlayerOne;
+        
         if(this.scorePlayerOne >= this.winningScore){
-            score.text = "RED WINS!";
-            score.color = Color.red;
+            winnerMessage.text = "RED\nWINS";
+            winnerMessage.color = Color.red;
             // this.ball.GetComponent<BallMovement>().resetBall();
             this.ball.GetComponent<BallMovement>().stopBall();
             return;
@@ -44,8 +48,8 @@ public class ScoreCounter : MonoBehaviour
 
         if(this.scorePlayerTwo >= this.winningScore){
 
-            score.text = "BLUE WINS!";
-            score.color = Color.blue;
+            winnerMessage.text = "BLUE\nWINS";
+            winnerMessage.color = Color.blue;
 
             // this.ball.GetComponent<BallMovement>().resetBall();
             this.ball.GetComponent<BallMovement>().stopBall();
@@ -53,8 +57,7 @@ public class ScoreCounter : MonoBehaviour
             return;
         }
 
-        score.color = Color.white;
-        score.text = this.scorePlayerTwo + ":" + this.scorePlayerOne;
+
 
 
     }
