@@ -1,5 +1,5 @@
 # Pong3D 🏓
-
+![Pong3D Screenshot 1](Pictures/Icon/pong3dicon.svg)
 ## Description
 
 3D Pong game made with Unity.
@@ -10,7 +10,7 @@
 
 The goal is to let the ball pass through the line of the other player. The longer the ball bounces between players without a goal, the faster the ball is moving. The player who manages to make three goals wins.
 
-### Controls 🕹
+### Keyboard Controls 🕹
 
 - Player 1
   - [↑] Up
@@ -22,6 +22,16 @@ The goal is to let the ball pass through the line of the other player. The longe
 ## Gameplay (YouTube) 🎞
 
 [![Watch the video](https://img.youtube.com/vi/WXd2yU25ZkE/default.jpg)](https://youtu.be/WXd2yU25ZkE)
+
+## Screenshots
+
+### Pong 3D Match
+
+![Pong3D Screenshot 1](Pictures/Screenshot/screenshot_pong3D_0.png)
+
+### End of Game
+
+![Pong3D Screenshot 2](Pictures/Screenshot/screenshot_pong3D_1.png)
 
 ## Asset Sources ℹ️
 
