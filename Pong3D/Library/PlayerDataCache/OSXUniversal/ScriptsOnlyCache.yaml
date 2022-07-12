@@ -2,10 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BallMovement
+    - Menu
     - PlayerMovement
     - PongAI
     - ScoreCounter
-    - SinglePlayer
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -62,13 +62,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: SinglePlayer
+    fullTypeName: Menu
     methodName: playMultiPlayerGame
   - assembly: Assembly-CSharp
-    fullTypeName: SinglePlayer
+    fullTypeName: Menu
     methodName: quitGame
   - assembly: Assembly-CSharp
-    fullTypeName: SinglePlayer
+    fullTypeName: Menu
     methodName: playSinglePlayerGame
   sceneClasses:
     Assets/Scenes/Menu.unity:
@@ -539,7 +539,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SinglePlayer
+    className: Menu
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
