@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="200.111" cy="136.316" r="29.274" id="gradient-1" gradientTransform="matrix(1, 0, 0, 1, 58.613499, 69.998684)">
+      <stop offset="0" style="stop-color: rgba(255, 255, 0, 1)"/>
+      <stop offset="1" style="stop-color: rgba(153, 153, 0, 1)"/>
+    </radialGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="177.206" y1="209.356" x2="177.206" y2="477.979" id="gradient-2" gradientTransform="matrix(1, 0, 0, 1, 0, 0)">
+      <stop offset="0" style="stop-color: rgba(255, 0, 0, 1)"/>
+      <stop offset="1" style="stop-color: rgba(153, 0, 0, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="177.206" y1="209.356" x2="177.206" y2="477.979" id="gradient-3" gradientTransform="matrix(1, 0, 0, 1, 0, 0)">
+      <stop offset="0" style="stop-color: rgba(0, 0, 255, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 153, 1)"/>
+    </linearGradient>
+  </defs>
+  <rect style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" x="0" y="0" width="500" height="500" rx="100" ry="100" bx:origin="0 0"/>
+  <ellipse style="stroke-width: 0px; fill: url(#gradient-1); stroke: rgb(0, 0, 0);" cx="258.725" cy="206.315" rx="29.274" ry="29.274"/>
+  <rect x="152.533" y="209.356" width="49.346" height="268.623" style="fill-rule: nonzero; paint-order: fill; stroke-width: 0px; stroke: rgba(255, 0, 0, 0); fill: url(#gradient-2);" transform="matrix(1, 0, 0.002272, 1, -120.176315, -38.195759)"/>
+  <rect x="152.533" y="209.356" width="49.346" height="268.623" style="fill-rule: nonzero; paint-order: fill; stroke-width: 0px; stroke: rgba(255, 0, 0, 0); fill: url(#gradient-3);" transform="matrix(1, 0, 0.002272, 1, 260.649933, -176.587509)"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 284.737 176.96 L 311.052 153.597"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 298.418 186.521 L 329.863 163.18"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 308.64 196.658 L 343.548 181.59"/>
+</svg>
