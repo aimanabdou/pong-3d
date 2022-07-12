@@ -4,7 +4,7 @@
   <img src="Pictures/Icon/pong3dicon.svg" width="40%">
 </center>
 
-## Description
+## Description 💬
 
 3D Pong game made with Unity.
 
@@ -27,13 +27,13 @@ The goal is to let the ball pass through the line of the other player. The longe
 
 [![Watch the video](https://img.youtube.com/vi/WXd2yU25ZkE/default.jpg)](https://youtu.be/WXd2yU25ZkE)
 
-## Screenshots
+## Screenshots 📸
 
-### Pong 3D Match
+### Pong 3D Match 🌅
 
 ![Pong3D Screenshot 1](Pictures/Screenshot/screenshot_pong3D_0.png)
 
-### End of Game
+### End of Game 🌠
 
 ![Pong3D Screenshot 2](Pictures/Screenshot/screenshot_pong3D_1.png)
 
