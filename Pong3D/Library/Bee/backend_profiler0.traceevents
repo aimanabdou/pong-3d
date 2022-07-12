@@ -1,0 +1,645 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1657625192098755, "dur":1410, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192100170, "dur":2200, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1657625192102374, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1657625192102385, "dur":86, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1657625192102477, "dur":292, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192102769, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125652, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125656, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125680, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125683, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125700, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125702, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125718, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125719, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125736, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125738, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125753, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125755, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125774, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125776, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125793, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125795, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125812, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125813, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192125816, "dur":2197, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1657625192102412, "dur":361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192102773, "dur":6509, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109282, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109283, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109290, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109290, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109480, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109620, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109623, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109642, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109739, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109952, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109955, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192109961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192110062, "dur":335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657625192110453, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1657625192110530, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192110575, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192110679, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1657625192111010, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1657625192111057, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192111095, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192111167, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1657625192111346, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192111913, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192111919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192111921, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112016, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112270, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112278, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112390, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112396, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112403, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112560, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112579, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112613, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192112711, "dur":2385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192115096, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192115104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192115106, "dur":105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192115213, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192116001, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192116009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192116012, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192116167, "dur":2117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192118284, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192118311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192118313, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192118439, "dur":4476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192122915, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192122923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192122925, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123129, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123501, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123521, "dur":105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123628, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123639, "dur":112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123752, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123758, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123881, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192123886, "dur":417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1657625192124340, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1657625192124377, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192124473, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192124577, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1657625192124804, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1657625192124808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657625192124810, "dur":538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1657625192125378, "dur":266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192102417, "dur":393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192102810, "dur":6491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192109302, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1657625192109307, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192109337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192109780, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1657625192109994, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1657625192110346, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192110355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192110372, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1657625192110639, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1657625192110679, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192110712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192110891, "dur":218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1657625192111116, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192111781, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192111786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192111788, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192111894, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192112352, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192112358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192112394, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192112584, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192113315, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192113322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192113324, "dur":90, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192113415, "dur":880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114295, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114329, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114427, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114764, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114775, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114867, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114870, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192114916, "dur":217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192115135, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192115437, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192115483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192115485, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192115591, "dur":1115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192116706, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192116727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192116730, "dur":208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192116942, "dur":819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192117761, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192117770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192117772, "dur":189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192117964, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192117968, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192117976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192117978, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192118102, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192118582, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192118594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192118596, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192118751, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192119104, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192119115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192119117, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192119248, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192119825, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192119837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192119839, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192119976, "dur":988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192120964, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192120983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192120985, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192121162, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192121599, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192121631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192121751, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192121871, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192122513, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192122524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192122527, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192122641, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192123348, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192123356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192123357, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192123521, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192123918, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192124144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192124146, "dur":199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657625192124409, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1657625192124509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657625192124512, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1657625192125117, "dur":508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192102424, "dur":394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192102819, "dur":6498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192109317, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657625192109508, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192109529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192109708, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657625192110433, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657625192110482, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192110555, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192110734, "dur":226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111014, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111065, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111102, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111168, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111307, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111329, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111370, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192111522, "dur":1151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192112673, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192112679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192112681, "dur":90, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192112772, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113049, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113074, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113172, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113208, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113240, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113359, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113971, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192113980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192114009, "dur":112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192114122, "dur":4236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192118358, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192118368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192118370, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192118527, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192118875, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192118886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192118889, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192119046, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192119050, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192119057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192119059, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192119245, "dur":771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192120016, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192120026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192120028, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192120158, "dur":1671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192121829, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192121849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192121851, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192121993, "dur":1225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123218, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123227, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123392, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123396, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123438, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123566, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123586, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123654, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123793, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123798, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123965, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192123971, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1657625192124316, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1657625192124347, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192124412, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657625192124515, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1657625192125187, "dur":453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192102430, "dur":392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192102822, "dur":6512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192109335, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1657625192109504, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192109511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192109702, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1657625192110067, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1657625192110348, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192110354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192110392, "dur":229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1657625192110671, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192110692, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192110766, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192110824, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192111062, "dur":1946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192113008, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192113014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192113016, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192113106, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192113354, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192113360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192113367, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192113471, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192114040, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192114046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192114048, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192114198, "dur":1075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192115273, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192115280, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192115282, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192115387, "dur":1381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192116768, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192116776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192116778, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192116959, "dur":1581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192118540, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192118574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192118577, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192118719, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192119011, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192119021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192119023, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192119160, "dur":1125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192120285, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192120310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192120313, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192120444, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192120447, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192120455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192120472, "dur":197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192120709, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192121445, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192121456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192121458, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192121619, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192121634, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192121721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192121723, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192121906, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192122627, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192122638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192122665, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192122791, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192123089, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192123103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192123106, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192123236, "dur":1832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192125068, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192125201, "dur":135, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657625192125347, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657625192125485, "dur":164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192102443, "dur":381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192102824, "dur":6485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192109309, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1657625192109366, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192109369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192109800, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1657625192110106, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1657625192110115, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192110180, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192110220, "dur":226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1657625192110532, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192110568, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192110636, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192110760, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192111085, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192111311, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192111345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192111375, "dur":105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192111481, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192111899, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192111905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192111907, "dur":92, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192112001, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192112378, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192112389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192112399, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192112594, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192112920, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192112926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192112928, "dur":81, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192113011, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192113985, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192114009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192114012, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192114142, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192114323, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192114329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192114331, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192114442, "dur":1635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192116078, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192116088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192116090, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192116214, "dur":1502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192117716, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192117724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192117726, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192117903, "dur":1440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192119343, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192119353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192119355, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192119486, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192119489, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192119496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192119498, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192119651, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192120539, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192120634, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192120740, "dur":371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192121113, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192121602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192121604, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192121903, "dur":1424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192123327, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192123368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192123371, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192123540, "dur":1590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192125130, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192125332, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657625192125379, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657625192125601, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1657625192125602, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192102454, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192102825, "dur":6479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192109306, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1657625192109366, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192109403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192110253, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1657625192110507, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192110554, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192110610, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192110732, "dur":271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192111070, "dur":912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192111982, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192111987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192111989, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192112084, "dur":1080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192113164, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192113171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192113173, "dur":104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192113278, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192113917, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192113923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192113925, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192114021, "dur":3547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192117568, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192117580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192117583, "dur":116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192117704, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192118098, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192118106, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192118125, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192118267, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192118369, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192118394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192118396, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192118527, "dur":2098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192120626, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192120645, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192120669, "dur":214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192120885, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192121472, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192121481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192121483, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192121620, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192121785, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192121824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192121826, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192121966, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192122666, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192122675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192122677, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192122802, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192123135, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192123177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192123179, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192123313, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192123842, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192123854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192123856, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124030, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124038, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124260, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124503, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124593, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124747, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124752, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657625192124753, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1657625192125371, "dur":274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192102462, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192102826, "dur":6493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192109319, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1657625192109334, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192109338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192109684, "dur":406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110104, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110114, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110194, "dur":216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110462, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110509, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110571, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110648, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1657625192110986, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D.exe" }}
+,{ "pid":12345, "tid":7, "ts":1657625192111598, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192111603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192111605, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D.exe" }}
+,{ "pid":12345, "tid":7, "ts":1657625192111695, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192112433, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192112440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192112442, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192112604, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192113196, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192113230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192113232, "dur":109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192113342, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114157, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114179, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114266, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114708, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114716, "dur":91, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114808, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114810, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114833, "dur":116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114951, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114954, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192114964, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192115107, "dur":1041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192116148, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192116168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192116170, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192116287, "dur":3776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192120063, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192120074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192120076, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192120248, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192120538, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192120629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192120712, "dur":187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192120902, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192121509, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192121540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192121542, "dur":255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192121821, "dur":1048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192122869, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192122875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192122878, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192123108, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192123828, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192123836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192123838, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657625192124293, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1657625192124330, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657625192124426, "dur":407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1657625192125104, "dur":512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192102472, "dur":356, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192102828, "dur":6482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192109311, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1657625192109365, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192109402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192110077, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1657625192110498, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1657625192110547, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192110604, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192110785, "dur":208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111054, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111475, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111487, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111583, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111585, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111592, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192111686, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192112068, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192112075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192112077, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192112172, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192112661, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192112706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192112712, "dur":105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192112818, "dur":1288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114106, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114114, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114212, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114544, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114552, "dur":85, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114639, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114865, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192114915, "dur":106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192115022, "dur":1168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192116191, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192116202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192116204, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192116330, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192116692, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192116699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192116728, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192116869, "dur":1720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192118590, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192118600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192118602, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192118726, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192118875, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192118886, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192118888, "dur":198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192119089, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192119330, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192119341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192119343, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192119464, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192120266, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192120278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192120280, "dur":336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192120619, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192120622, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192120646, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192120710, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192120923, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192121616, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192121631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192121719, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192121973, "dur":936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192122909, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192122917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192122919, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123142, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123145, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123181, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123320, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123589, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123607, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123716, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192123813, "dur":404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657625192124236, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1657625192124259, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192124344, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1657625192124695, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1657625192124700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657625192124702, "dur":198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/aimanabdou/Git/pong-3d/Game/Pong3D/Pong3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1657625192125121, "dur":513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657625192129589, "dur":761, "ph":"X", "name": "ProfilerWriteOutput" }
+,
