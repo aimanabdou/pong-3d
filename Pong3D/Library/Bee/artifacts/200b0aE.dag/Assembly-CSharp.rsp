@@ -352,7 +352,7 @@
 "Assets/Code/Game/PlayerMovement.cs"
 "Assets/Code/Game/PongAI.cs"
 "Assets/Code/Game/ScoreCounter.cs"
-"Assets/Code/Menu/SinglePlayer.cs"
+"Assets/Code/Menu/Menu.cs"
 -langversion:9.0
 
 /deterministic
