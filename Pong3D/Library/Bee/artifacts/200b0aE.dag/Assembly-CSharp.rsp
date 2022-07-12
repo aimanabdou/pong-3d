@@ -348,11 +348,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Code/BallMovement.cs"
-"Assets/Code/movement.cs"
-"Assets/Code/PlayerMovement.cs"
-"Assets/Code/PongAI.cs"
-"Assets/Code/ScoreCounter.cs"
+"Assets/Code/Game/BallMovement.cs"
+"Assets/Code/Game/movement.cs"
+"Assets/Code/Game/PlayerMovement.cs"
+"Assets/Code/Game/PongAI.cs"
+"Assets/Code/Game/ScoreCounter.cs"
+"Assets/Code/Menu/SinglePlayer.cs"
 -langversion:9.0
 
 /deterministic

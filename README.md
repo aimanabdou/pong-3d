@@ -1,6 +1,8 @@
 # Pong3D 🏓
 
-## Sources
-1. Texture - Poly Haven: \
+## Asset Sources
+
+1. Texture - Poly Haven:\
 [Metal Plate](https://polyhaven.com/a/metal_plate)
-1. 
+1. HDRIs - Poly Haven:\
+[Dry Cracked Lake](https://polyhaven.com/a/dry_cracked_lake)
