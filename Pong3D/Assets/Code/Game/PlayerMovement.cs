@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(this.player == Player.PLAYER_ONE){
             this.playerOne();
-        } else if(this.player == Player.PLAYER_TWO /*&& PlayerPrefs.GetString("PlayerTwo") == "secondPlayer"*/){
+        } else if(this.player == Player.PLAYER_TWO){
             this.playerTwo();
         } 
     }

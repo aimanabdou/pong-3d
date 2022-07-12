@@ -18,8 +18,6 @@ public class ScoreCounter : MonoBehaviour
 
         this.winnerMessage.text = "";
         this.restartGame.text = "";
-
-        // this.winnerMessage.SetActive(false);
     }
 
     // Update is called once per frame
@@ -40,8 +38,7 @@ public class ScoreCounter : MonoBehaviour
 
         this.scorePlayerOne = this.ball.GetComponent<BallMovement>().getScorePlayerOne();
         this.scorePlayerTwo = this.ball.GetComponent<BallMovement>().getScorePlayerTwo();
-
-        // score.color = Color.white;
+        
         score.text = this.scorePlayerTwo + ":" + this.scorePlayerOne;
 
         if(this.scorePlayerOne >= this.winningScore){

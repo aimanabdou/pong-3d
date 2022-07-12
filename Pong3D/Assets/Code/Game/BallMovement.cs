@@ -17,10 +17,6 @@ public class BallMovement : MonoBehaviour
     public const int STANDARD_BALL_SPEED = 800;
     private int ballSpeed; 
     public BallDirection ballDirection;
-    
-
-    // private GameObject playerOneGameObject = GameObject.Find("Players/PlayerOne");
-    
 
     public AudioClip playerOneSoundEffect;
     public AudioClip playerTwoSoundEffect;
@@ -32,12 +28,9 @@ public class BallMovement : MonoBehaviour
 
     private Vector3 originalPosition;
 
-    // public Vector3 startPosition;
-
     // Start is called before the first frame update
     void Start()
     {
-        // this.playerOneGameObject = GameObject.Find("Players/PlayerOne");
         this.ballSpeed = STANDARD_BALL_SPEED;
 
         this.initialImpulse = calculateBallDirection(ballDirection);
@@ -100,27 +93,20 @@ public class BallMovement : MonoBehaviour
     void OnCollisionEnter(Collision collision) {
         GameObject gameObject = collision.gameObject;
         Transform parentGameObject = gameObject.transform.parent;
-        // Debug.Log("Collided with: " + gameObject.name);
 
         if(parentGameObject == null){
             return;
         }
-        // Debug.Log("Collided with: " + parentGameObject.name);
+
         if(gameObject.name == "PlayerOne"){
             this.playSound(playerOneSoundEffect);
-            // GetComponent<AudioSource>().clip = playerOneSoundEffect;
-            // GetComponent<AudioSource>().Play();
             this.ballSpeed += 32;
         }
 
         if(gameObject.name == "PlayerTwo"){
             this.playSound(playerTwoSoundEffect);
-            // GetComponent<AudioSource>().clip = playerTwoSoundEffect;
-            // GetComponent<AudioSource>().Play();
             this.ballSpeed += 32;
         }
-
-        // Debug.Log("Collided with: " + parentGameObject.name);
 
         if(parentGameObject.name == "Upper Wall" || parentGameObject.name == "Lower Wall"){
             this.playSound(wallSoundEffect);
@@ -139,31 +125,6 @@ public class BallMovement : MonoBehaviour
             this.playSound(goalSoundEffect);
             this.resetBall();
         }
-        
-
-
-
-        // switch (gameObject.name)
-        // {
-        //     case "PlayerOne":
-                
-        //         break;
-
-        //     case "PlayerTwo":
-  
-        //         break;
-
-        //     case "UpperLongWall":
-        //         GetComponent<AudioSource>().clip = wallSoundEffect;
-        //         GetComponent<AudioSource>().Play();
-        //         break;
-
-        //     default:
-
-        //         break;
-        // }
-
-        
     }
 
     private void resetBall(){
