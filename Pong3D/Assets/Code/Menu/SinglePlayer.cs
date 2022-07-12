@@ -18,12 +18,12 @@ public class SinglePlayer : MonoBehaviour
     }
 
     public void playSinglePlayerGame(){
-        PlayerPrefs.SetString("PlayerTwo","secondPlayer"); 
+        PlayerPrefs.SetString("PlayerTwo","PongAI"); 
         SceneManager.LoadScene("Pong3DField", LoadSceneMode.Single);
     }
 
     public void playMultiPlayerGame(){
-        PlayerPrefs.SetString("PlayerTwo","PongAI"); 
+        PlayerPrefs.SetString("PlayerTwo","secondPlayer"); 
         SceneManager.LoadScene("Pong3DField", LoadSceneMode.Single);
     }
 
