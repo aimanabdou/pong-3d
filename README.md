@@ -1,5 +1,9 @@
 # Pong3D 🏓
-![Pong3D Screenshot 1](Pictures/Icon/pong3dicon.svg)
+<!-- ![Pong3D Screenshot 1](Pictures/Icon/pong3dicon.svg) -->
+<center>
+  <img src="Pictures/Icon/pong3dicon.svg" width="40%">
+</center>
+
 ## Description
 
 3D Pong game made with Unity.
