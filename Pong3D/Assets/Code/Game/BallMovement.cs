@@ -59,12 +59,14 @@ public class BallMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Return))
         {
             if(ballObject.velocity.magnitude == 0.0f){
-                // Application.LoadLevel(Application.loadedLevel);
-                SceneManager.LoadScene("Pong3DField", LoadSceneMode.Single);
-
-                // this.ballObject.velocity = this.ballSpeed * (ballObject.velocity.normalized);
-                // GetComponent<Rigidbody>().AddForce(initialImpulse, ForceMode.Impulse);
+                // SceneManager.LoadScene("Pong3DField", LoadSceneMode.Single);
+                SceneManager.LoadScene("Menu", LoadSceneMode.Single);
             }
+        }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         }
     }
 
@@ -197,7 +199,4 @@ public class BallMovement : MonoBehaviour
             this.ballObject.velocity = Vector3.zero;
         }
     }
-
-    
-
 }
